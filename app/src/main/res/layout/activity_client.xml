@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.example.a1234.lineupall.client"
+    >
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="160dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="7dp"
+        android:autoText="false"
+        android:gravity="center_vertical|center"
+        android:text="客戶資訊"
+        android:textColor="#b3ffffff"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="384dp"
+        android:layout_height="413dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints">
+
+        <ListView
+            android:id="@+id/product_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20sp"
+            android:background="@drawable/selector_setting_all_shape" />
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="54dp"
+        android:layout_gravity="bottom|right|center"
+        android:layout_weight="1"
+        android:background="#B3ffffff"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <ImageButton
+            android:id="@+id/client"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@null"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:paddingTop="2dp"
+            android:src="@drawable/ingroup1"
+            android:text="In" />
+
+        <ImageButton
+            android:id="@+id/qrcode"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:paddingTop="2dp"
+            android:src="@drawable/group4"
+            android:text="Out" />
+
+        <ImageButton
+            android:id="@+id/time"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:paddingTop="2dp"
+            android:src="@drawable/group3"
+            android:text="Out" />
+
+        <ImageButton
+            android:id="@+id/customer"
+            android:layout_width="384dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:paddingTop="2dp"
+            android:src="@drawable/group2"
+            android:text="Out" />
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

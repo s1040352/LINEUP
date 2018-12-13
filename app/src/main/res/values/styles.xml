@@ -1,0 +1,57 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="Theme.AppCompat" />
+    <style name="AppTheme.PopupOverlay" parent="Theme.AppCompat.Light"
+     />
+<!--
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />-->
+
+    <style name="MyCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+
+    <item name="android:button">@drawable/checkbox_selector</item>
+    </style>
+
+    <style name="MyCheckBox1">
+        <item name="android:button">@drawable/checkbox_selector1</item>
+    </style>
+    <style name="MyCheckBox2">
+        <item name="android:button">@drawable/checkbox_selector2</item>
+    </style>
+    <style name="MyCheckBox3">
+        <item name="android:button">@drawable/checkbox_selector3</item>
+    </style>
+    <style name="MyCheckBox4">
+        <item name="android:button">@drawable/checkbox_selector4</item>
+    </style>
+    <style name="MyCheckBox5">
+        <item name="android:button">@drawable/checkbox_selector5</item>
+    </style>
+    <style name="MyCheckBox6">
+        <item name="android:button">@drawable/checkbox_selector6</item>
+    </style>
+
+
+    <!--<style name="Theme"></style>
+
+    <style name="ThemeOverlay.AppCompat.Dark.ActionBar"></style>
+
+    <style name="ThemeOverlay.AppCompat.Dark.ActionBar"></style>-->
+
+</resources>

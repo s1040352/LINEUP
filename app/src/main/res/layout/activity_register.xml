@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/teview1"
+        android:layout_width="fill_parent"
+        android:layout_height="102dp"
+        android:gravity="center_vertical|center"
+        android:paddingLeft="20sp"
+        android:paddingTop="10sp"
+        android:text="註冊"
+        android:textColor="#99FFFFFF"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editview5"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15sp"
+        android:textColor="@color/colorAccent"
+        android:hint="店名"
+        android:textColorHint="#4db9bbbd" />
+
+    <EditText
+        android:id="@+id/editview1"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15sp"
+        android:textColorHint="#4db9bbbd"
+        android:textColor="@color/colorAccent"
+        android:hint="用戶名" />
+
+    <EditText
+        android:id="@+id/editview4"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15sp"
+        android:textColorHint="#4db9bbbd"
+        android:textColor="@color/colorAccent"
+        android:hint="地址" />
+
+    <EditText
+        android:id="@+id/editview6"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:hint="電話"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="#4db9bbbd" />
+
+    <EditText
+        android:id="@+id/editview2"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15sp"
+        android:hint="密碼"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="#4db9bbbd"
+        android:password="true" />
+
+    <EditText
+        android:id="@+id/editview3"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:textColorHint="#4db9bbbd"
+        android:hint="確認密碼"
+        android:textColor="@color/colorAccent"
+        android:password="true" />
+
+    <Button
+        android:id="@+id/tijiao"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:background="@null"
+        android:text="完成註冊"
+        android:textColor="#99ffffff"
+        android:textSize="20sp" />
+
+</LinearLayout>
